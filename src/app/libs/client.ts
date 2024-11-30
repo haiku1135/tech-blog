@@ -4,6 +4,11 @@ export type Blog = {
   id: string;
   title: string;
   body: string;
+  thunbnal?: {
+    height: number;
+    url: string;
+    width: number;
+  };
 }
 
 if(!process.env.SERVICE_DOMAIN) {
